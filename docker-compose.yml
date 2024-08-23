@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: crowd_counting_app
+    volumes:
+      - .:/app
+#    environment:
+#      - CUDA_VISIBLE_DEVICES=0  # Or whichever device you want to use
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    network_mode: "host"  # Use host networking mode to access local network resources
+    command: ["python", "main.py"]  # Replace with your actual script name

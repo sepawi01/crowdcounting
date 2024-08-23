@@ -1,0 +1,72 @@
+{
+  "cameras": [
+    {
+      "name": "Huvudentré",
+      "rtsp_url": "rtsp://172.22.175.130/rtsp/defaultSecondary?streamType=u"
+    },
+    {
+      "name": "Lilla mot Ham1",
+        "rtsp_url": "rtsp://172.22.175.131/rtsp/defaultPrimary-0?streamType=u"
+    },
+    {
+      "name": "Lilla mot gamla entrén",
+        "rtsp_url": "rtsp://172.22.175.131/rtsp/defaultPrimary-1?streamType=u"
+    },
+    {
+      "name": "Lilla mot spanska trappan",
+        "rtsp_url": "rtsp://172.22.175.131/rtsp/defaultPrimary-2?streamType=u"
+    },
+    {
+      "name": "Lilla scen",
+        "rtsp_url": "rtsp://172.22.175.132/rtsp/defaultSecondary?streamType=u"
+    },
+    {
+      "name": "Tyrolentrén",
+        "rtsp_url": "rtsp://172.22.175.133/rtsp/defaultSecondary?streamType=u"
+    },
+    {
+      "name": "Lustiga Huset mot Pop expressen",
+        "rtsp_url": "rtsp://172.22.175.134/rtsp/defaultPrimary-0?streamType=u"
+    },
+    {
+      "name": "Lustiga huset mot Monster",
+        "rtsp_url": "rtsp://172.22.175.134/rtsp/defaultPrimary-1?streamType=u"
+    },
+    {
+      "name": "Slushgatan",
+        "rtsp_url": "rtsp://172.22.175.135/rtsp/defaultPrimary-0?streamType=u"
+    },
+    {
+      "name": "Jetgatan",
+        "rtsp_url": "rtsp://172.22.175.135/rtsp/defaultPrimary-1?streamType=u"
+    },
+    {
+      "name": "Järntorget",
+        "rtsp_url": "rtsp://172.22.175.135/rtsp/defaultPrimary-2?streamType=u"
+    },
+    {
+      "name": "Kaskad Stora scen",
+        "rtsp_url": "rtsp://172.22.175.137/rtsp/defaultPrimary?streamType=u"
+    },
+    {
+      "name": "CocaCola Stora Scen",
+      "rtsp_url": "rtsp://172.22.175.138/rtsp/defaultPrimary?streamType=u"
+    },
+    {
+      "name": "Spanska trappan mot stora scen",
+      "rtsp_url": "rtsp://172.22.175.139/rtsp/defaultPrimary-0?streamType=u"
+    },
+    {
+      "name": "Spanska trappan mot LI",
+      "rtsp_url": "rtsp://172.22.175.139/rtsp/defaultPrimary-1?streamType=u"
+    },
+    {
+      "name": "Katapulten",
+      "rtsp_url": "rtsp://172.22.175.140/rtsp/defaultSecondary?streamType=u"
+    },
+    {
+      "name": "Stora Scen publik",
+      "rtsp_url": "rtsp://172.22.175.142/rtsp/defaultPrimary?streamType=u"
+    }
+  ]
+}
